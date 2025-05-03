@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(/fonts/SfPro/SFProDisplay-Regular.ttf) format("truetype");
+  font-weight: normal; }
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+*, *::after, ::before {
+  box-sizing: inherit; }
+
+a, ul, li, h1, h2, h3, p, div, button, header, body, img, section, input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  color: #000; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9fd; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.folder-cont {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .folder-cont img {
+    width: 200px; }
+
+.folder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px; }
+
+.grid {
+  display: none;
+  max-width: 1170px;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%; }
+
+.folder-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .folder-project img {
+    width: 200px; }
+
+/*# sourceMappingURL=style.css.map */
